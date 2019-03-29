@@ -6,10 +6,10 @@ var util = require('util'),
 db = db.connect('db', ['sentiments']);
 
 var config = {
-  consumer_key: '-- REPLACE YOUR KEY ',
-  consumer_secret: '-- REPLACE YOUR KEY',
-  access_token_key: '-- REPLACE YOUR KEY',
-  access_token_secret: '-- REPLACE YOUR KEY'
+  consumer_key: 'XvoBovYtyksOI6tTrIpFIZm4O ',
+  consumer_secret: 'hoZXceTLgAkCwECjuCz3Jc032je177hmsI5mhtz3xIReaY3IoJ',
+  access_token_key: '779997720710746112-uJqES2a4bd86PZ6TNlbzoGFIgkFo0qA ',
+  access_token_secret: 'FOuh3gXSKTGrJWbnPVC1FYyBhzkKSK2LIT82Dpr30sw8Q'
 }
 
 module.exports = function(text, callback) {
